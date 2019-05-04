@@ -55,24 +55,24 @@ include_directories(
 # add cross-platforms source files and header files 
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
-	 Classes/GameController.cpp
+     Classes/GameController.cpp
      Classes/HelloWorldScene.cpp
-	 Classes/Hud.cpp
-	 Classes/Playboard.cpp
-	 Classes/PlayboardItem.cpp
-	 Classes/SizePickup.cpp
-	 Classes/Utils.cpp
+     Classes/Hud.cpp
+     Classes/Playboard.cpp
+     Classes/PlayboardItem.cpp
+     Classes/SizePickup.cpp
+     Classes/Utils.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
-	 Classes/Colors.h
-	 Classes/GameController.h
+     Classes/Colors.h
+     Classes/GameController.h
      Classes/HelloWorldScene.h
-	 Classes/Hud.h
-	 Classes/Playboard.h
-	 Classes/PlayboardItem.h
-	 Classes/SizePickup.h
-	 Classes/Utils.h
+     Classes/Hud.h
+     Classes/Playboard.h
+     Classes/PlayboardItem.h
+     Classes/SizePickup.h
+     Classes/Utils.h
      )
 
 if(ANDROID)
