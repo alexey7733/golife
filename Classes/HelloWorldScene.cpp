@@ -178,8 +178,8 @@ void HelloWorld::onNextPressed()
 
 void HelloWorld::onStopPressed()
 {
-	if (GameController::instance()->getState() == GameController::State::None)
-		return;
+	//if (GameController::instance()->getState() == GameController::State::None)
+	//	return;
 
 	GameController::instance()->setState(GameController::None);
 
