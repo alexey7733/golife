@@ -61,6 +61,7 @@ list(APPEND GAME_HEADER
      Classes/AppDelegate.h
      Classes/HelloWorldScene.h
      Classes/GameController.h
+     Classes/Colors.h
      Classes/Hud.h
      Classes/Playboard.h
      Classes/PlayboardItem.h
